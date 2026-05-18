@@ -6,7 +6,7 @@
   <parent>
     <groupId>com.example.maven-project</groupId>
     <artifactId>maven-project</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
     <relativePath>../pom.xml</relativePath>
   </parent>
 
@@ -19,7 +19,7 @@
 
     <repository>
       <id>nexus-releases</id>
-      <url>$NEXUS_URL/nexus/content/repositories/maven-releases/</url>
+      <url>$NEXUS_URL/repository/maven-releases1/</url>
     </repository>
 
     <snapshotRepository>
