@@ -25,7 +25,7 @@
 
     <repository>
       <id>nexus-releases</id>
-      <url>$NEXUS_URL/nexus/content/repositories/maven-releases/</url>
+      <url>$NEXUS_URL/repository/maven-releases1/</url>
     </repository>
 
     <snapshotRepository>
