@@ -18,7 +18,7 @@ pipeline {
         stage('Checkout Code') {
             steps {
                 git branch: 'master',
-                url: 'https://github.com/ShilpaLB28/webapp.git'
+                url: 'https://github.com/kavyakr9599-dotcom/webapp.git'
             }
         }
         stage('Sonarqube Analysis') {
