@@ -45,7 +45,7 @@ pipeline {
                 dir('webapp') {
                     sh '''
                     mvn clean deploy -DskipTests \
-                    -DaltDeploymentRepository=nexus-snapshots::http://18.234.209.237:8081/repository/maven-releases1/
+                    -DaltDeploymentRepository=maven-releases1::http://18.234.209.237:8081/repository/maven-releases1/
                     '''
                 }
             }
