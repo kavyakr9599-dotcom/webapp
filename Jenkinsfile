@@ -5,9 +5,9 @@ pipeline {
         maven 'maven3'
     }
     parameters {
-      string(name: 'sonar_IP', defaultValue: '52.62.89.26', description: 'IP of sonarqube')
-      string(name: 'nexus_IP', defaultValue: '3.107.227.103', description: 'IP of nexus')
-      string(name: 'deploy_IP', defaultValue:'3.107.169.163', description: 'IP of Deploy Server')  
+      string(name: 'sonar_IP', defaultValue: '54.221.90.229', description: 'IP of sonarqube')
+      string(name: 'nexus_IP', defaultValue: '18.234.209.237', description: 'IP of nexus')
+      string(name: 'deploy_IP', defaultValue:'50.17.8.182', description: 'IP of Deploy Server')  
     }
     environment {
       SONARQUBE_URL="http://${params.sonar_IP}:9000"
